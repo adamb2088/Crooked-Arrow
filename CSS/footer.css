@@ -1,0 +1,58 @@
+:root {
+    --feeling-passionate: Feeling-passionate;
+    --background-color: #fff7e8;
+    --sidebar: #f88379;
+    --navy: #0a2342;
+    --pink-accent: #cc3363;
+    --green-accent: #d1c965;
+    --orange-accent: #e1532a;
+}
+
+footer {
+    background-color: var(--sidebar);
+    margin-left: 14%;
+}
+
+.banner h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    height: 150px;
+    text-align: center;
+
+}
+
+.email-form {
+    display: inline-flex;
+    align-items: center;
+}
+.email-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 3px solid #000000;
+    background-color: var(--background-color);
+    outline: none;
+}
+.submit-button {
+    padding: 10px 10px;
+    font-size: 16px;
+    border: 3px solid #000000;
+    border-left: none;
+    background-color: var(--navy);
+    color: #ffffff;
+    cursor: pointer;
+}
+.submit-button:hover {
+    background-color: #173a64;
+}
+
+.center-footer {
+    margin: 30px;
+}
+
+.center-footer p,
+.center-footer a {
+    color: #0a2342;
+}

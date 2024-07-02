@@ -1,0 +1,74 @@
+:root {
+    --feeling-passionate: Feeling-passionate;
+    --background-color: #fff7e8;
+    --sidebar: #f88379;
+    --navy: #0a2342;
+    --pink-accent: #cc3363;
+    --green-accent: #d1c965;
+    --orange-accent: #e1532a;
+}
+
+.main {
+    background-color: var(--background-color);
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.offerings {
+    background-color: var(--background-color);
+    width: 86%;
+    height: 80vh;
+    margin-left: 14%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    padding: 20vh 0;
+}
+.item {
+    display: flex;
+    flex: 1 1 calc(33.33% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+}
+.item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    width: 300px;
+}
+
+@media (max-width: 800px) {
+    .item {
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+@media (max-width: 500px) {
+    .item {
+        flex: 1 1 100%;
+    }
+}
+
+.item a {
+    text-decoration: none;
+}
+
+#collaborate, #retreats {
+    background-color: var(--background-color);
+    width: 86%;
+    height: 100vh;
+    margin-left: 14%;
+}

@@ -1,0 +1,87 @@
+:root {
+    --feeling-passionate: Feeling-passionate;
+    --background-color: #fff7e8;
+    --sidebar: #f88379;
+    --navy: #0a2342;
+    --pink-accent: #cc3363;
+    --green-accent: #d1c965;
+    --orange-accent: #e1532a;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidenav {
+    height: 100%;
+    width: 14%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: var(--sidebar);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sidenav .logo {
+    margin-bottom: 20px;
+}
+
+.sidenav .logo a {
+    margin: 0;
+    padding: 0;
+}
+
+.sidenav .logo img {
+    max-width: 170px;
+    min-width: 50px;
+    height: auto;
+}
+
+.sidenav .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--navy);
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.sidenav a:hover {
+    color: white;
+}
+
+.sidenav .social-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px;
+}
+
+.sidenav .social-media a {
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.sidenav .social-media a img {
+    width: 30px;
+    height: auto;
+}
